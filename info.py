@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '26305156'))
 API_HASH = environ.get('API_HASH', '9937930c368c669ca905e9a95aa712f0')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6652027028:AAE4_AO8b7TNwWqHdIdIzJJsUL7FUGte-wE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7466479376:AAFUy78h73xK6y5vibmNBKD5AftNAUfQZ60")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://propes:propes@aamishadam.xlg6kcd.mongodb.net/?retryWrites=true&w=majority&appName=aamishadam")
-DATABASE_NAME = environ.get('DATABASE_NAME', "aamishadam")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'aamishadamcollection)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kallu:kallu@movieworld.5aaiagq.mongodb.net/?retryWrites=true&w=majority&appName=movieworld")
+DATABASE_NAME = environ.get('DATABASE_NAME', "movieworld")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
